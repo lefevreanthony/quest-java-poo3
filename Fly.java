@@ -8,7 +8,9 @@ public interface Fly {
 
     void land();
 
-    void glide();
+    default void glide(){
+        System.out.println("It glides into the air");
+}
         
         
 
